@@ -1,4 +1,4 @@
-" vim
+" editor
 set number
 
 set tabstop=4
@@ -13,6 +13,7 @@ set foldlevelstart=20
 call plug#begin()
 	Plug 'ayu-theme/ayu-vim'
 	Plug 'preservim/nerdtree'
+	Plug 'dyng/ctrlsf.vim'
 	Plug 'itchyny/lightline.vim'
 	Plug 'airblade/vim-gitgutter'
 	Plug 'tpope/vim-fugitive'
