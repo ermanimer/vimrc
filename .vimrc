@@ -15,6 +15,7 @@ call plug#begin()
 	Plug 'preservim/nerdtree'
 	Plug 'dyng/ctrlsf.vim'
 	Plug 'itchyny/lightline.vim'
+	Plug 'jiangmiao/auto-pairs'
 	Plug 'airblade/vim-gitgutter'
 	Plug 'tpope/vim-fugitive'
 	Plug 'natebosch/vim-lsc'
