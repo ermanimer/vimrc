@@ -9,7 +9,9 @@ set noexpandtab
 set foldmethod=syntax
 set foldlevelstart=20
 
-" plugins
+set scrolloff=5
+
+"plugins
 call plug#begin()
 	Plug 'ayu-theme/ayu-vim'
 	Plug 'preservim/nerdtree'
@@ -22,9 +24,12 @@ call plug#begin()
 	Plug 'fatih/vim-go'
 call plug#end()
 
+" nerdtree
+let NERDTreeShowHidden=1
+
 " ayu
 set termguicolors
-let ayucolor="mirage"
+let ayucolor='mirage'
 colorscheme ayu
 
 " lightline
