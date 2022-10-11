@@ -12,6 +12,10 @@ set foldlevelstart=20
 set scrolloff=5
 
 "plugins
+if empty(glob('~/.vim/autoload/plug.vim'))
+	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
 call plug#begin()
 	Plug 'ayu-theme/ayu-vim'
 	Plug 'preservim/nerdtree'
